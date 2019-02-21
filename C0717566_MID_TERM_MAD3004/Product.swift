@@ -19,7 +19,7 @@ class Product{
         self.price = price
         self.quantity = quantity
       //  super.init()
-        
+    }
         init(){
         self.productId = Int()
         self.productName = String()
@@ -29,7 +29,7 @@ class Product{
         }
     
     func display(){
-        print("Product choosen succesfully :\(o1)")
+        print("Product choosen succesfully ")
     }
 }
 

@@ -30,7 +30,7 @@ class Order : Product{
         super.init(productId: 1, productName: "Hard drive", price: 120.0, quantity: 5)
     }*/
     func orderCreate(productId:Int){
-        if ((productId == 1)){
+        if (productId == 1){
             print(" Product Id :\(p1.productId) \n Product Name: \(p1.productName) \n Price:\(p1.quantity) "
             )
         }
@@ -46,6 +46,9 @@ class Order : Product{
             print(" Product Id :\(p4.productId) \n Product Name: \(p4.productName) \n Price:\(p4.quantity) ")
             
         }
+    }
+    func orderById(){
+        
     }
 }
 
