@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Product:Manufacturer {
+class Product{
     var productId :Int
     var productName: String
     var price : Float
@@ -18,15 +18,18 @@ class Product:Manufacturer {
         self.productName = productName
         self.price = price
         self.quantity = quantity
-        super.init()
+      //  super.init()
         
-       /* init(){
-            self.productId = Int()
-            self.productName = String()
-            self.price = Float()
-            self.quantity = Int()*/
-        
+        init(){
+        self.productId = Int()
+        self.productName = String()
+        self.price = Float()
+        self.quantity = Int()
+       // super.init()
         }
-    }
     
+    func display(){
+        print("Product choosen succesfully :\(o1)")
+    }
+}
 
