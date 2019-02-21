@@ -7,8 +7,26 @@
 //
 
 import Foundation
-class Product {
+class Product:Manufacturer {
     var productId :Int
     var productName: String
+    var price : Float
+    var quantity :Int
     
-}
+    init(productId:Int,productName:String,price:Float,quantity:Int){
+        self.productId = productId
+        self.productName = productName
+        self.price = price
+        self.quantity = quantity
+        super.init()
+        
+       /* init(){
+            self.productId = Int()
+            self.productName = String()
+            self.price = Float()
+            self.quantity = Int()*/
+        
+        }
+    }
+    
+

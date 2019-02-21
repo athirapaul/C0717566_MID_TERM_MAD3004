@@ -7,3 +7,20 @@
 //
 
 import Foundation
+class Order : Product{
+    
+    var orderId: Int
+    var orderDate :Int
+    var productArray :[String]
+    var orderTotal :Float
+    
+    init(orderId: Int,orderDate : Date,productArray :[String],orderTotal :Float){
+        self.orderId  = orderId
+        self.orderDate = orderDate
+        self.productArray = productArray
+        self.orderTotal = orderTotal
+    }
+    func orderCreate(){
+        
+    }
+}
